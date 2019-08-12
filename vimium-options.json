@@ -1,0 +1,26 @@
+{
+  "settingsVersion": "1.64.6",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/mail/u/*",
+      "passKeys": "?jk"
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Scrolling\nmap j scrollDown count=4\nmap k scrollUp count=4\n\nmap J scrollDown count=16\nmap K scrollUp count=16\nunmap <c-e>\nunmap <c-y>\n\n# Navigation\n# TODO: figure out shift-tab\n#map <shift><tab> previousTab\n#map <tab> nextTab\n\nmap < previousTab\nmap > nextTab\nmap <a->> moveTabRight\nmap <a-<> moveTabLeft\nunmap <<\nunmap >>\n\n# Marks\nmap m Marks.activateGotoMode\nmap M Marks.activateCreateMode\nunmap `\n\n# Tab Manipulation\nmap d removeTab\nmap u restoreTab\n\n#map t createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html\n\n# Vomnibar\nmap o Vomnibar.activateInNewTab\nunmap O\nmap b Vomnibar.activateBookmarksInNewTab\nunmap B\nmap s Vomnibar.activateInNewTab keyword=g\nmap <c-k> Vomnibar.activateInNewTab keyword=g\nmap <c-l> Vomnibar.activateEditUrlInNewTab\n\n# Miscellaneous\nmap Y copyCurrentUrl\nmap R reload hard\n\n# q to escape\n#mapkey q <c-[>",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": true,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "a: https://www.amazon.com/s/?field-keywords=%s Amazon\nb: https://www.bing.com/search?q=%s Bing\nd: https://duckduckgo.com/?q=%s DuckDuckGo\ng: https://www.google.com/search?q=%s Google\nl: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\nm: https://www.google.com/maps?q=%s Google maps\nw: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\ny: https://www.youtube.com/results?search_query=%s Youtube\n\nconfluence: https://confluence.arm.com/dosearchsite.action?queryString=%s Confluence\nfindit: https://armh.sharepoint.com/search/Pages/results.aspx?k=%s FindIt\njira: https://jira.arm.com/browse/%s Jira\norgchart: http://orgchart.arm.com/?search=%s OrgChart\norgtree: https://eis.euhpc.arm.com/users/herman/arm/meta/tree/?uid=%s OrgTree",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
